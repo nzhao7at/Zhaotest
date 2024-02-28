@@ -26,8 +26,7 @@ note, you don't necessarily need to separate out your assets, you can lump it al
 however, sometimes, it's easier to organize your code by first thinking about all the assets you need, and then calling them when you need
 -->
             <a-entity position='0 0.5 0' scale="1 1 1"
-                      obj-model="obj: #school-obj; mtl: #school-mtl" rotation="0 0 0"
-                      material='opacity: 0.5;' color="#4CC3D9"></a-entity>
+                      obj-model="obj: #school-obj; mtl: #school-mtl" rotation="0 0 0"></a-entity>
             <a-box material='opacity: 0.5;' color="#4CC3D9"></a-box>
 
 
@@ -36,6 +35,7 @@ however, sometimes, it's easier to organize your code by first thinking about al
 <!--            <a-marker-camera type='pattern' src="Assets/pattern-Figure Ground Image.patt"></a-marker-camera>      -->
 <!--            <a-marker-camera src="pattern-Figure Ground Image.patt"></a-marker-camera>    -->
         
+            <a-marker-camera preset='hiro'></a-marker-camera>
         </a-scene>
     </body>
 </html>
